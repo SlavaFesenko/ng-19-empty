@@ -1,8 +1,8 @@
 import { Routes } from '@angular/router';
-import { ExampleComponent } from './components/example/example.component';
+import { SignalsBasicComponent } from './components/signals-basic/signals-basic.component';
 
 export const routes: Routes = [
-  { path: '', component: ExampleComponent },
-  { path: 'example', component: ExampleComponent },
+  { path: '', component: SignalsBasicComponent },
+  { path: 'example', component: SignalsBasicComponent },
   { path: '**', redirectTo: 'example' },
 ];
